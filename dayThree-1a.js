@@ -10,3 +10,8 @@ let [name, skills, scores] = student //used array destructuring to extract the d
 // console.log(scores)
 // console.log(student)
 console.log(name, skills, scores);
+
+let [,, jsScore, reactScore] = scores //used comma seperator along with destructuring to fetch the required data
+
+console.log(jsScore, reactScore)
+
